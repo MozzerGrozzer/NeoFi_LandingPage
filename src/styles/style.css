@@ -33,19 +33,19 @@ main{
 }
 
 #batch{
-    display:flex; align-items: center; border: 2px solid var(--gray2); padding: 10px 12px; width: 25%; gap:12px;  border-radius: 40px;
+    display:flex; align-items: center; border: 2px solid var(--gray2); padding: 10px 12px; width: 25%; gap:12px;  border-radius: 40px; margin: 20px 0px;
 }
 
 #batch>p{text-transform: capitalize; color: var(--primaryGreen);}
 
-#mainText{width: 40%;}
+#mainText{width: 40%; margin: 20px 0px;}
 
 #mainText>h1{
     font-size: 4em;
 }
 #mainText>p{color:var(--gray1);}
 
-#mainButtons{display:flex; align-items: center; gap:20px;}
+#mainButtons{display:flex; align-items: center; gap:20px; margin: 20px 0px;}
 
 #getStarted{background-color: var(--primaryGreen); color: black; padding: 14px 24px; border-radius: 40px; font-size: 18px;}
 
