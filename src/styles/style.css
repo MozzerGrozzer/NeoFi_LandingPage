@@ -133,14 +133,14 @@ main{
 
 /* future */ /* tem algo errado aqui*/
 
-#futureAside{display:flex; justify-content: space-between; align-items: center; padding:0px 22px; gap:70px;}
+#futureAside{display:flex; justify-content: space-between; align-items: center; padding:0px 82px; gap:90px;}
 
 #futureAside>img{width: 506px;}
 
 #articleRow{display: flex; flex-direction: column; gap:22px;}
 
 .futureCard{
-    display:flex; background-color: var(--gray4); padding: 30px 12px; border: 2px solid var(--gray2); border-radius: 14px; width: 70%;
+    display:flex; background-color: var(--gray4); padding: 30px 12px; border: 2px solid var(--gray2); border-radius: 14px; width: 100%;
 }
 
 #futureCardText>p:nth-child(1){margin:10px 0px 0px 10px;}
