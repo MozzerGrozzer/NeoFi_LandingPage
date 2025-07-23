@@ -33,7 +33,12 @@ main{
 }
 
 #batch{
-    display:flex; align-items: center; border: 2px solid var(--gray2); padding: 10px 12px; width: 25%; gap:12px;  border-radius: 40px; margin: 20px 0px;
+    display:flex; align-items: center; 
+    border: 2px solid var(--gray2);
+    border-radius: 40px; 
+    padding: 10px 12px; 
+    width: 25%; gap:12px;
+    margin: 20px 0px;
 }
 
 #batch>p{text-transform: capitalize; color: var(--primaryGreen);}
@@ -53,3 +58,17 @@ main{
     background-color: black; border: 2px solid var(--gray1); border-radius: 40px;
     padding: 14px 24px;
     font-size: 18px;}
+
+/* partners */
+
+#partners{
+    display:flex; flex-direction: column; justify-content: center; align-items: center;
+    background-color: var(--gray4);
+    padding:40px 329.5px;
+}
+
+#partners>p{
+    color: var(--gray1); margin-bottom:40px;
+}
+
+#partnersLogos{display:flex; gap:40px;}
