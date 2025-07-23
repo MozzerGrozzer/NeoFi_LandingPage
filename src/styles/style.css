@@ -146,3 +146,13 @@ main{
 #futureCardText>p:nth-child(1){margin:10px 0px 0px 10px;}
 
 #futureCardText>p:nth-child(2){color: var(--gray1); margin:10px 0px 0px 10px;}
+
+/* FAQ */
+
+#FAQ{display:flex; flex-direction: column; justify-content: center;align-items: center; padding: 60px 144px; background-color: var(--gray4);}
+
+#FAQrows{display:grid; grid-template-rows: repeat(6,1fr); gap: 30px;}
+
+.questions{display:flex; justify-content: space-between; padding:16px 20px; border:2px solid var(--gray2);}
+
+.questions>p{padding-right: 700px;}
