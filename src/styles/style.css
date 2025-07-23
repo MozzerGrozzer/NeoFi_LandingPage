@@ -1,1 +1,25 @@
 @import url(../styles/global.css);
+
+header{
+    display:flex; justify-content: space-between; align-items: center;
+    padding:20px 193px;
+}
+
+#logo{display:flex; align-items: center; gap:11px;}
+#logo>p{font-size: 22px;}
+
+#navBar{
+    display:flex; justify-content: space-evenly;
+    gap:40px;
+}
+
+#navBar>a{color:var(--gray2);}
+#navBar>a:nth-child(1){color:white;}
+
+#headerButtons{display:flex; gap:16px;
+text-transform: capitalize;}
+
+#logIn{padding:10px 24px;}
+#tryForFree{padding:10px 24px; 
+    background-color: var(--primaryGreen); color: black; 
+    border-radius: 40px;}
