@@ -79,6 +79,22 @@ main{
     display:flex; flex-direction: column; justify-content: center;align-items: center; padding: 60px 144px;
 }
 
+#batchALT{
+    display:flex; flex-direction: column;align-items: center; 
+    border: 2px solid var(--gray2);
+    border-radius: 40px;
+    color: var(--primaryGreen); 
+    padding: 10px 12px; 
+    width: 15%; gap:12px;
+    margin: 20px 0px;
+}
+
+#featuresText{display:flex; flex-direction: column; align-items: center; margin:60px 0px;}
+
+#featuresText>h2{font-size: 3em; margin: 20px 0px; text-transform: capitalize;}
+
+#featuresText>p:nth-child(3){color:var(--gray1); width:70%; text-align: center;}
+
 #featuresGrid{
     display:grid; grid-template-columns: repeat(3,1fr); gap:20px;
 }
@@ -89,7 +105,11 @@ main{
     background-color: var(--gray4); border: 2px solid var(--gray3); border-radius: 14px;
 }
 
-#featuresCardText{display:flex;align-items: center;flex-direction:column;gap:16px;}
+.featuresCard>img{
+    padding:48px 161px;
+}
+
+#featuresCardText{display:flex;align-items: center;flex-direction:column;gap:16px; text-align: center; width: 80%;}
 
 #featuresCardText>p:nth-child(2){
     color: var(--gray1);
