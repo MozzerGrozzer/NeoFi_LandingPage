@@ -156,3 +156,25 @@ main{
 .questions{display:flex; justify-content: space-between; padding:16px 20px; border:2px solid var(--gray2);}
 
 .questions>p{padding-right: 700px;}
+
+/* lading page */
+
+#landingPage{display:flex; flex-direction: column; justify-content: center;align-items: center; padding: 60px 144px;}
+
+#landingPageBTN{background-color: var(--primaryGreen); padding:14px 24px; color:black; margin-top:20px; text-transform: capitalize;}
+
+/* footer */
+
+footer{
+    display: flex; justify-content: space-between;align-items: center; padding:60px 78px;
+}
+
+#footerLinks{
+    display:flex; align-items: flex-start;
+    padding:40px 77px; gap:92px;
+}
+
+#logo{display:flex; align-items: center;}
+
+#quickLinks>p{font-size: 20px;}
+#quickLinks>nav{display: flex; flex-direction: column; gap:12px; margin-top: 20px;}
