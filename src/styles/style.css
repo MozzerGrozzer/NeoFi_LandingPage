@@ -184,4 +184,6 @@ footer{
 #quickLinks>nav{display: flex; flex-direction: column; gap:12px; margin-top: 20px;}
 #quickLinks>nav>a{color: var(--gray1);}
 
-#input{background: none; border:none; border-bottom: 1px solid var(--gray1);}
+#newsLetter>p{font-size: 20px; font-weight: 400; margin-bottom: 20px;}
+#newsLetterInput{display:flex;align-items: flex-end;}
+#input{background: none; border:none; color: white; border-bottom: 1px solid var(--gray1); padding:5%;}
