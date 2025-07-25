@@ -71,7 +71,7 @@ main{
     color: var(--gray1); margin-bottom:40px;
 }
 
-#partnersLogos{display:flex; gap:40px;}
+#partnersLogos{display:flex; gap:40px; align-items: center; justify-content: center;}
 
 /* features */
 
@@ -193,9 +193,20 @@ footer{
 @media (min-width:325px){
     header{display:none;}
 
-    main{flex-direction: column; padding: 20px;}
+    main{flex-direction: column; padding: 20px; gap: 12px;}
 
     #mainText>h1{font-size: 32px;}
     #mainText>h1, #mainText>p{text-align: center; display: flex; align-items: center; justify-content: center;}
+
+    #mainButtons{align-items: center; justify-content: center; flex-direction: column;}
+
+    #getStarted, #watchVideo{font-size: 12px; width: fit-content; text-align: center;}
+
+    #watchVideo>p{font-size: 12px;}
+
+    main>img{width: 90%;}
+
+    #partners{padding:24px 0px;}
+    #partnersLogos{flex-direction: column;}
 }
 
